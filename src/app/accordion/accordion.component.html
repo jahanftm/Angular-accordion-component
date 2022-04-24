@@ -1,0 +1,10 @@
+<section>
+  <div class="tab" *ngFor="let item of list; index as i">
+    <input type="checkbox" id="{{'faq'+ i}}">
+    <label class="tab-label" for="{{'faq'+ i}}">
+      {{item.title}}
+    </label>
+    <div class="tab-content" [innerHTML]="item.content">
+    </div>
+  </div>
+</section>
