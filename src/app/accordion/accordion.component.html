@@ -1,10 +1,13 @@
 <section>
   <div class="tab" *ngFor="let item of list; index as i">
-    <input type="checkbox" id="{{'faq'+ i}}">
-    <label class="tab-label" for="{{'faq'+ i}}">
+    <input type="checkbox" id="{{'id'+ i}}">
+    <label class="tab-label" for="{{'id'+ i}}">
       {{item.title}}
     </label>
-    <div class="tab-content" [innerHTML]="item.content">
+    <div class="tab-content">
+      <app-accordion-item  *ngFor="let i of item.children"
+                           [image]="i.imageId"
+                           [name]="i.name"></app-accordion-item>
     </div>
   </div>
 </section>

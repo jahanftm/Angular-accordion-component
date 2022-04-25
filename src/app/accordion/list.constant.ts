@@ -1,10 +1,26 @@
 export const List = [
   {
-    title: 'title 1',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet assumenda beatae blanditiis dolor ducimus eius, eligendi esse eum exercitationem, id impedit incidunt inventore ipsam magnam maiores mollitia nesciunt nihil nostrum omnis perferendis quae quasi quis sunt totam vero vitae voluptates. Adipisci dignissimos dolorem excepturi illum itaque modi provident sunt?'
+    title: 'step-1',
+    children: [
+      {
+        imageId: 'avatar-1',
+        name: 'David',
+        score: 180,
+      },
+      {
+        imageId: 'avatar-2',
+        name: 'Jacob',
+        score: 120,
+      },
+      {
+        imageId: 'avatar-3',
+        name: 'Mary',
+        score: 110,
+      },
+    ]
   },
   {
-    title: 'title 2',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet assumenda beatae blanditiis dolor ducimus eius, eligendi esse eum exercitationem, id impedit incidunt inventore ipsam magnam maiores mollitia nesciunt nihil nostrum omnis perferendis quae quasi quis sunt totam vero vitae voluptates. Adipisci dignissimos dolorem excepturi illum itaque modi provident sunt?'
-  }
+    title: 'step-2',
+    children: [],
+  },
 ];
