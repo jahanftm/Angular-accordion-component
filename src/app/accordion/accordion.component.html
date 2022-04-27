@@ -1,7 +1,7 @@
 <section>
-  <div class="tab" *ngFor="let item of list; index as i">
-    <input type="checkbox" id="{{'id'+ i}}">
-    <label class="tab-label" for="{{'id'+ i}}">
+  <div class="tab" *ngFor="let item of list; index as index">
+    <input type="checkbox" id="{{'id'+ index}}" [checked]="index===0">
+    <label class="tab-label" for="{{'id'+ index}}">
       {{item.title}}
     </label>
     <div class="tab-content">
