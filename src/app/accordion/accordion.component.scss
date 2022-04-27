@@ -105,3 +105,12 @@ input:checked {
   }
 }
 
+
+app-accordion-item {
+  display: block;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

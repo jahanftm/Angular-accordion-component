@@ -21,6 +21,22 @@ export const List = [
   },
   {
     title: 'step-2',
-    children: [],
+    children: [
+      {
+        imageId: 'avatar-4',
+        name: 'Sarah',
+        score: 95,
+      },
+      {
+        imageId: 'avatar-5',
+        name: 'Mathew',
+        score: 80,
+      },
+      {
+        imageId: 'avatar-6',
+        name: 'Zack',
+        score: 50,
+      },
+    ],
   },
 ];
