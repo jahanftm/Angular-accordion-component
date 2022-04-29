@@ -13,6 +13,9 @@ export class AccordionItemComponent implements OnInit {
   @Input()
   image: string = '';
 
+  @Input()
+  score: number = 0;
+
   constructor() {
   }
 

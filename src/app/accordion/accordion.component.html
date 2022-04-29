@@ -5,9 +5,10 @@
       {{item.title}}
     </label>
     <div class="tab-content">
-      <app-accordion-item  *ngFor="let i of item.children"
-                           [image]="i.imageId"
-                           [name]="i.name"></app-accordion-item>
+      <app-accordion-item *ngFor="let i of item.children"
+                          [image]="i.imageId"
+                          [name]="i.name"
+                          [score]="i.score"></app-accordion-item>
     </div>
   </div>
 </section>
