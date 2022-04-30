@@ -20,6 +20,7 @@ export class AccordionItemComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log(this.score);
   }
 
 }

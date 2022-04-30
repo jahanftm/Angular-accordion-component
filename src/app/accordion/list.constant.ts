@@ -1,4 +1,6 @@
-export const List = [
+import { ListModel } from './list.model';
+
+export const List: ListModel[] = [
   {
     title: 'step-1',
     children: [
